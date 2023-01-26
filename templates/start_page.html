@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSTAGRAM</title>
+  <link href="/static/css/styles.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container header">
+    <div class="header__wrapper">
+        INSTAGRAM &nbsp; &nbsp;
+        <a href="/start_page">
+          <img src="https://phonoteka.org/uploads/posts/2021-05/1621757126_5-phonoteka_org-p-fon-ikonki-instagrama-5.png" alt=""  width="28"></a>
+      &nbsp; &nbsp; <a href="/users/{{user_name}}">Моя страница</a>
+      &nbsp;<a href="/logout">Выйти</a>
+    </div>
+  </header>
+  <main class="container">
+    <section class="items">
+      {% for post in posts %}
+      <div class="items__item item">
+        <div class="item__top">
+          <a href="users/{{ post.user_name }}" class="item__head">
+            <div class="item__ava-wrap">
+              <img src="{{ post.user_avatar }}" alt="" class="item__ava" width="47" height="47">
+            </div>
+            <span class="item__username">{{ post.user_name }}</span>
+          </a>
+        </div>
+        <a href="/posts/{{ post.post_id }}" class="item__item__post-link">
+          <img src="{{ post.post_picture }}" alt="" width="348" class="item__post-img">
+        </a>
+        <p class="item__descr">{{ post.post_text }}</p>
+        <div class="item__post-info">
+          <div class="item__counter">
+            <img src="/static/img/eye.png" alt="" class="item__counter-icon" width="26">
+            <span class="item__counter-text">{{ post.views_count}}</span>
+          </div>
+        </div>
+        <div class="item__post-bottom">
+          <a href="/posts/{{post.post_id}}" class="item__btn-more">Подробнее</a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSTAGRAM</title>
+  <link href="/static/css/styles.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container header">
+    <div class="header__wrapper">
+        INSTAGRAM &nbsp; &nbsp;
+        <a href="/start_page">
+          <img src="https://phonoteka.org/uploads/posts/2021-05/1621757126_5-phonoteka_org-p-fon-ikonki-instagrama-5.png" alt=""  width="28"></a>
+      &nbsp; &nbsp; <a href="/users/{{post.user_name}}">Моя страница</a>
+      &nbsp;<a href="/logout">Выйти</a>
+    </div>
+  </header>
+  <main class="container">
+    <section class="items">
+      <div class="items__item item item--post">
+        <div class="item__top">
+          <a href="http://127.0.0.1:5000/users/{{ post.user_name }}" class="item__head">
+            <div class="item__ava-wrap">
+              <img src="{{ post.user_avatar }}" alt="" class="item__ava" width="47" height="47">
+            </div>
+            <span class="item__username">{{ post.user_name }}</span>
+          </a>
+        </div>
+        <a href="/posts/{{ post.post_id }}" class="item__item__post-link">
+          <img src="{{ post.post_picture }}" alt="" width="348" class="item__post-img">
+        </a>
+        <p class="item__descr">{{ post.post_text }}</p>
+
+        <div class="item__bottom">
+          <div class="item__post-info">
+            <p class="item__comments-counter">{{comments_len}} комментария</p>
+            <div class="item__counter">
+              <img src="/static/img/eye.png" alt="" class="item__counter-icon" width="26">
+              <span class="item__counter-text">{{ post.views_count}}</span>
+            </div>
+          </div>
+        <div class="item__comments">
+          {% for comment in comments%}
+          <p class="item__comment">
+            <a style="decoration:none" href="http://127.0.0.1:5000/users/{{comment.commenter_name}}"><b>{{comment.commenter_name}}</b></a> {{comment.comment}}
+          </p>
+          {% endfor %}
+        </div>
+          <a href="/start_page" class="item__btn-more">Вернуться назад</a>
+      </div>
+      </div>
+      {% if is_login == True%}
+        <div style="padding:0 " class="header__wrapper">Добавить комментарий</div>
+        <form action="" method="post">
+            <textarea style="width:100%;" name="comment_text"></textarea>
+            <input type="submit" name="post_btn">
+        </form>
+    {% endif %}
+    </section>
+
+
+  </main>
+</body>
+
+</html>

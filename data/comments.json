@@ -1,0 +1,38 @@
+[
+  {
+    "post_id": 1,
+    "commenter_name": "hanna",
+    "comment": "Очень здорово!",
+    "comment_id": 1
+  },
+  {
+    "post_id": 1,
+    "commenter_name": "valya",
+    "comment": ":)",
+    "comment_id": 2
+  },
+  {
+    "post_id": 1,
+    "commenter_name": "katya",
+    "comment": "Класс!",
+    "comment_id": 3
+  },
+  {
+    "post_id": 2,
+    "commenter_name": "katya",
+    "comment": "Интересно. А где это?",
+    "comment_id": 4
+  },
+  {
+    "comment_id": 5,
+    "post_id": 8,
+    "commenter_name": "hanna",
+    "comment": "my comment"
+  },
+  {
+    "comment_id": 6,
+    "post_id": 7,
+    "commenter_name": "katya",
+    "comment": "красивый постер"
+  }
+]

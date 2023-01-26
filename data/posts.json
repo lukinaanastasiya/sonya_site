@@ -1,0 +1,74 @@
+[
+  {
+    "post_id": 1,
+    "user_name": "hanna",
+    "post_picture": "https://fikiwiki.com/uploads/posts/2022-02/1645019670_16-fikiwiki-com-p-yagodi-krasivie-kartinki-20.jpg",
+    "post_text": "Очень вкусные и свежие ягодки:)",
+    "likes_count": 30,
+    "views_count": 46,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png"
+  },
+  {
+    "post_id": 2,
+    "user_name": "valya",
+    "post_picture": "https://fikiwiki.com/uploads/posts/2022-02/1645019670_16-fikiwiki-com-p-yagodi-krasivie-kartinki-20.jpg",
+    "post_text": "Очень вкусные и свежие ягодки:)",
+    "likes_count": 30,
+    "views_count": 43,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png"
+  },
+  {
+    "post_id": 3,
+    "user_name": "katya",
+    "post_picture": "https://trikky.ru/wp-content/blogs.dir/1/files/2022/03/14/2-25.jpg",
+    "post_text": "Мой котик",
+    "likes_count": 30,
+    "views_count": 23,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645916746_10-kartinkin-net-p-kartinki-schastlivii-chelovek-10.jpg"
+  },
+  {
+    "post_id": 4,
+    "user_name": "katya",
+    "post_picture": "https://fikiwiki.com/uploads/posts/2022-02/1645019670_16-fikiwiki-com-p-yagodi-krasivie-kartinki-20.jpg",
+    "post_text": "Не верьте anna, это моя фотка...",
+    "likes_count": 300,
+    "views_count": 500,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645916746_10-kartinkin-net-p-kartinki-schastlivii-chelovek-10.jpg"
+  },
+  {
+    "post_id": 5,
+    "post_picture": "/static/img/Рисунок2.png",
+    "user_name": "masha",
+    "post_text": "",
+    "likes_count": 0,
+    "views_count": 0,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png"
+  },
+  {
+    "post_id": 6,
+    "post_picture": "/static/img/загруженное (7).png",
+    "user_name": "hanna",
+    "post_text": "Вот такой график",
+    "likes_count": 0,
+    "views_count": 2,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png"
+  },
+  {
+    "post_id": 7,
+    "post_picture": "/static/img/Рисунок3.png",
+    "user_name": "hanna",
+    "post_text": "dsffsdf",
+    "likes_count": 0,
+    "views_count": 0,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png"
+  },
+  {
+    "post_id": 8,
+    "post_picture": "/static/img/Рисунок3.png",
+    "user_name": "hanna",
+    "post_text": "fgdfsgdfg",
+    "likes_count": 0,
+    "views_count": 0,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png"
+  }
+]

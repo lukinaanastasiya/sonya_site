@@ -1,0 +1,61 @@
+[
+  {
+    "user_id": 1,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png",
+    "user_name": "hanna",
+    "first_name": "Hannah",
+    "last_name": "Montana",
+    "password": "ddd",
+    "age": 26,
+    "country": "USA",
+    "city": "Los Angeles",
+    "about": "Я очень хорошая певица"
+  },
+  {
+    "user_id": 2,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645916746_10-kartinkin-net-p-kartinki-schastlivii-chelovek-10.jpg",
+    "user_name": "katya",
+    "password": "ddd",
+    "first_name": "Екатерина",
+    "last_name": "Романова",
+    "age": 55,
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "about": "Я не знаю, что можно сказать о себе. Я просто я"
+  },
+  {
+    "user_id": 3,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png",
+    "user_name": "valya",
+    "password": "ddd",
+    "first_name": "Валентина",
+    "last_name": "Реус",
+    "age": 16,
+    "country": "Россия",
+    "city": "Волгоград",
+    "about": "Я очень хорошая певица"
+  },
+  {
+    "user_id": 4,
+    "user_name": "lida",
+    "password": "ddd",
+    "last_name": "Иванова",
+    "first_name": "Лидия",
+    "country": "Россия",
+    "age": 39,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png",
+    "about": "Я очень хорошая певица"
+  },
+  {
+    "user_id": 5,
+    "user_name": "masha",
+    "password": "ddd",
+    "last_name": "Егорова",
+    "first_name": "Мария",
+    "country": "Россия",
+    "city": "Москва",
+    "age": 43,
+    "user_avatar": "https://kartinkin.net/uploads/posts/2022-02/1645097167_34-kartinkin-net-p-kartinki-chelovek-55.png",
+    "about": " "
+  }
+]
